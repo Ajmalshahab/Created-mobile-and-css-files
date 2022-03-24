@@ -1,3 +1,28 @@
 body {
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer";
+    background: rgb(36,0,22);
+    background: linear-gradient(90deg, rgba(36,0,22,0.8127626050420168) 0%, rgba(121,12,9,1) 35%, rgba(255,0,31,1) 100%);
+
 }
+
+nav {
+    display: block;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+   }
+
+   nav ul li {
+    margin: 0 2em;
+    list-style: none;
+}
+
