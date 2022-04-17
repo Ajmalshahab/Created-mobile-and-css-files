@@ -19,9 +19,6 @@ body {
      min-height: 100vh;    
 }
 
-
-
-
 header {
     text-align: center;
     color: white;
@@ -33,11 +30,6 @@ header {
 
     
     /*new*/
-
-    .on , .off{
-
-      display:none;
-  }
     nav {
    margin: 0 0 0 10px;
 
@@ -175,7 +167,7 @@ header {
       
       
      input {
-          float: center;
+          margin:0 auto;
           width: calc(100% - 200px);
         }
 
@@ -185,7 +177,7 @@ header {
           }
       
     button {
-          float: center;
+          margin:0 auto;
           width: calc(100% - 200px);
         }
       }
