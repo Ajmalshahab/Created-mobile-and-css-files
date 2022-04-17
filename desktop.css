@@ -1,11 +1,10 @@
 * {
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    background-color: #259aaf;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  background-color: #259aaf;
 
-    }
-
+  }
       
 
 body {
@@ -70,7 +69,7 @@ header {
   }
 
 
-   /* This is where the CSS For CV page starts */
+   /* This is where the CSS For blog page starts */
     
    .cv {
     text-align: left;
